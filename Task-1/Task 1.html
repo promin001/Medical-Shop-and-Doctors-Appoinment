@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+
+<style>
+  input[type=submit] {
+   
+  }
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  </style>
+
+<body>
+
+  <div>
+
+<p> * Denotes Requlred information </p>
+
+<p> > 1 Donation	>  2 Confirmation	>Thank You </p>
+<h3 style="color:Red;">Donor Information</h3>
+<form action="/action_page.php">
+  <b><label for="fname">First name:</label></b>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <b><label for="lname">Last name:</label></b>
+  <input type="text" id="lname" name="lname" value=""><br>
+  <b><label for="fname">Company:</label></b>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <b><label for="lname">Address 1:</label></b>
+  <input type="text" id="lname" name="lname" value=""><br>
+  <b><label for="fname">Address 2:</label></b>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <b><label for="lname">City:</label></b>
+  <input type="text" id="lname" name="lname" value=""><br>
+
+  <b><label for="cars">State:</label></b>
+<select id="cars" name="cars">
+  <option value="select a State">select a State</option>
+  <option value="Kuril">Kuril</option>
+  <option value="Badda">Badda</option>
+  <option value="Uttora">Uttora</option>
+</select><br>
+  <b><label for="lname">Zip Cord:</label>
+  <input type="text" id="lname" name="lname" value=""><br>
+</b>
+  <b><label for="cars">Country:</label>
+<select id="cars" name="cars">
+  <option value="select a Country">select a Country</option>
+  <option value="Bangladesh">Bangladesh</option>
+  <option value="india">india</option>
+  <option value="Pakistan">Pakistan</option>
+</select><br>
+
+  <b><label for="lname">Phone:</label></b>
+  <input type="text" id="lname" name="lname" value=""><br>
+  <b><label for="lname">Fax:</label></b>
+  <input type="text" id="lname" name="lname" value=""><br>
+  <b><label for="lname">Email:</label></b>
+  <input type="text" id="lname" name="lname" value=""><br>
+
+<b><label for="lname">Donation Ammount $ :</label></b>
+<p style="color:#3F3E3E;">(Check a batton or type in your ammount)</p>
+		<input type="radio" id="None" name="fav_language" value="None">
+		<label for="None">None</label>
+		<input type="radio" id="$50" name="fav_language" value="$50">
+		<label for="$50">$50</label>
+		<input type="radio" id="$75" name="fav_language" value="$75">
+		<label for="$75">$75</label>
+		<input type="radio" id="$100" name="fav_language" value="$100">
+		<label for="$100">$100</label>
+		<input type="radio" id="$250" name="fav_language" value="$250">
+		<label for="$250">$250</label>
+		<input type="radio" id="Other" name="fav_language" value="Other">
+		<label for="Other">Other</label><br>
+
+	<b><label for="lname">Other Ammount $ :</label></b>
+  	<input type="text" id="lname" name="lname" value=""><br>
+
+<b><label for="lname">Recurring Donation :</label> <p style="color:#3F3E3E;">(Check if yes)</p>
+  	  <input type="checkbox" id="Donation1" name="Donation1" value="Car">
+  <label for="Donation1"> I a, interested in giving on a regular basis.</label>
+
+  <b><label for="lname">Monthly  Credit Card $</label></b>
+  <input type="text" id="lname" name="lname" value="">
+ <b><label for="lname">For</label>
+  <input type="text" id="lname" name="lname" value=""><br>
+   <b><label for="lname">Month</label></b>
+
+   <h3 style="color:Red;">Honorarium and Memorial Donation Informaton</h3>
+   <b><label for="lname">I Would like to make this donation :</label></b><br>
+		<input type="radio" id="To Honor" name="fav_language" value="To Honor">
+		<label for="To Honor">To Honor</label><br>
+		<input type="radio" id="In Memory of" name="fav_language" value="In Memory o">
+		<label for="In Memory o">In Memory o</label><br>
+
+  <b><label for="lname">Name</label></b>
+  <input type="text" id="lname" name="lname" value=""><br>
+  <b><label for="fname">Acknowledge Donation to</label></b>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <b><label for="lname">Address</label></b>
+  <input type="text" id="lname" name="lname" value=""><br>
+  <b><label for="fname">City</label></b>
+  <input type="text" id="fname" name="fname" value=""><br>
+
+  <b><label for="cars">State:</label></b>
+<select id="cars" name="cars">
+  <option value="select a State">select a State</option>
+  <option value="Kuril">Kuril</option>
+  <option value="Badda">Badda</option>
+  <option value="Uttora">Uttora</option>
+</select><br>
+
+  <b><label for="lname">Zip Cord:</label>
+  <input type="text" id="lname" name="lname" value=""><br>
+</b>
+ <h3 style="color:Red;">Additional Information</h3>
+   <p> Please enter your name, Company or Organization as you would like it to appear in our publication: </p>
+   <b><label for="lname">Name</label></b>
+   <input type="text" id="lname" name="lname" value=""><br>
+
+  	  <input type="checkbox" id="Donation1" name="Donation1" value="Car">
+  <label for="Donation1"> I would like my gift to remain anoymous.</label><br>
+  <input type="checkbox" id="Donation1" name="Donation1" value="Car">
+  <label for="Donation1"> My employer offers a matching gift program. I will mail the matching gif form.</label><br>
+  <input type="checkbox" id="Donation1" name="Donation1" value="Car">
+  <label for="Donation1"> Please save the code of acknowledging this gift by not mailing a thank you letter.</label><br>
+
+  <b><label for="fname">First name:</label></b>
+  <p> (Please type any questionof feedback here) </p>
+
+  <form action="/html/tags/html_form_tag_action.cfm" method="post">
+    <div>
+    <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
+    say something!
+    </textarea>
+    </div>
+    </form>
+    <b><label for="lname">How may we contact you? </label><br>
+    <input type="checkbox" id="Donation1" name="Donation1" value="Car">
+    <label for="Donation1"> Email </label><br>
+    <input type="checkbox" id="Donation1" name="Donation1" value="Car">
+    <label for="Donation1"> Post Mail</label><br>
+    <input type="checkbox" id="Donation1" name="Donation1" value="Car">
+    <label for="Donation1"> Telephone </label><br>
+    <input type="checkbox" id="Donation1" name="Donation1" value="Car">
+    <label for="Donation1"> Fax </label>
+  
+    <p> I would like to recieve newlatter and information about pecial event by </p>
+    <input type="checkbox" id="Donation1" name="Donation1" value="Car">
+    <label for="Donation1"> Telephone </label><br>
+    <input type="checkbox" id="Donation1" name="Donation1" value="Car">
+    <label for="Donation1"> Fax </label><br>
+
+    <input type="checkbox" id="Donation1" name="Donation1" value="Car">
+    <label for="Donation1"> I would like information about volunteering with </label>
+    <form action="/action_page.php">
+
+      <input type="reset" value="Reset">
+      <input type="submit" value="Submit">
+    </form>
+    <p> IDonate online with confidence. You are on a secure server </p>
+    <p> If you have any problems or question, please contact <a href="https://www.facebook.com/ahateshamrabbi/">support</a> </p>
+  </form> 
+  </div>
+</body>
+</html>
